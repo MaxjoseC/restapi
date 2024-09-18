@@ -5,4 +5,4 @@ from .models import Cliente
 
 @admin.register(Cliente)
 class ClienteAdmin(admin.ModelAdmin):
-    list_display = ('nombre', 'telefono', 'calle', 'numero', 'sector', 'tiene_descuento')
+    list_display = ('nombre', 'telefono', 'calle', 'numero', 'sector', 'descuentoBool')
